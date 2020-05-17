@@ -1,0 +1,39 @@
+{
+  "name": "koa-api-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Koa API boilerplate using Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch src/**/*.ts --ignore 'src/**/*.spec.ts' --exec ts-node src/application/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aferrerdev/koa-api-ts-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aferrerdev/koa-api-ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/aferrerdev/koa-api-ts-boilerplate#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.8",
+    "mongoose": "^5.9.14",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.3",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.4.1"
+  }
+}
